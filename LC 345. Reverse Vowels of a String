@@ -15,6 +15,5 @@ class Solution:
                 x-=1
             else:
                 i+=1
-        # join and return
+        # join and return statement
         return "".join(s)
-            
