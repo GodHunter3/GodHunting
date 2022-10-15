@@ -1,5 +1,8 @@
+#faltu code
 class Solution:
+#but works fine
     def rotateString(self, s: str, goal: str) -> bool:
+    #works but can be more efficient
         for k in range(len(s)):
             s=list(s)
             temp=s[0]
