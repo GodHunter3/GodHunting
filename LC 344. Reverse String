@@ -1,5 +1,8 @@
+#Class 
 class Solution:
+#function to reverse
     def reverseString(self, s: List[str]) -> None:
+    #Algorithm
         x=len(s)-1
         for i in range(int(len(s)/2)):
             s[i],s[x-i]=s[x-i],s[i]
